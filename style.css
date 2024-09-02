@@ -1,0 +1,160 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 10px 0;
+    border-bottom: 2px solid #ccc;
+}
+
+.branding h1 {
+    display: inline;
+    font-size: 24px;
+}
+
+.accent {
+    color: #7A1755;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    background-color: #eaeaea;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+}
+
+.hero-text h2 {
+    font-size: 36px;
+    color: #333;
+}
+
+.hero-text select, .hero-text button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #7A1755;
+    color: white;
+    cursor: pointer;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.destinations {
+    padding: 50px 0;
+}
+
+.destinations h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.destinations p {
+    text-align: center;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+.destinations-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.destination {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.destination img {
+    width: 100%;
+    height: auto;
+}
+
+.destination h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.destination p {
+    color: #777;
+}
+
+.destination button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    background-color: #7A1755;
+    color: white;
+    cursor: pointer;
+}
+
+.contact {
+    background-color: #eaeaea;
+    padding: 50px 0;
+}
+
+.contact h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    text-align: center;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact form input, .contact form select, .contact form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+
+.contact form button {
+    background-color: #7A1755;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
